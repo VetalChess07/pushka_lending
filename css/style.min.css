@@ -1776,7 +1776,7 @@ body.show-mobile .mobile-menu {
 
 .main .main-banner__inner {
 	
-    background-image: url("../assets/image/banner.jpg");
+    background-image: url("../images/banner.jpg");
 	background-size: cover;
 	background-position: center;
 	padding: 14.375rem 0 4.0625rem 0
@@ -2691,4 +2691,8 @@ form > p > br {
    
    
     width: 100%;
+}
+
+.header__menu{
+	z-index: 1000;
 }

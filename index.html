@@ -17,10 +17,10 @@
             <div class="header__inner">
                 <nav class="header__items">
                     <div class="header__item">
-                        <a class="header__item-link" href="#">Выбрать квартиру</a>
+                        <a class="header__item-link" href="#main">Выбрать квартиру</a>
                     </div>
                     <div class="header__item">
-                        <a class="header__item-link" href="#">О комплексе</a>
+                        <a class="header__item-link" href="#gallery">О комплексе</a>
                     </div>
                 </nav>
                 <div class="header__logo">
@@ -28,16 +28,14 @@
                 </div>
                 <nav class="header__items">
                     <div class="header__item">
-                        <a class="header__item-link" href="#">Как купить</a>
+                        <a class="header__item-link" href="#buy">Как купить</a>
                     </div>
                     <div class="header__item">
-                        <a class="header__item-link" href="#">Контакты</a>
+                        <a class="header__item-link" href="#contacts">Контакты</a>
                     </div>
                 </nav>
-                <div class="header__menu">
-                    <svg role="img" width="30" height="30">
-                        <use xlink:href="svg/symbol/svg-symbols.svg#menu"></use>
-                    </svg>
+                <div  class="header__menu">
+                    <img src="./images/burger.svg" alt="">
                 </div>
             </div>
         </div>
@@ -59,16 +57,16 @@
                 <div class="mobile-menu__body">
                     <nav class="mobile-menu__items">
                         <div class="mobile-menu__item">
-                            <a class="mobile-menu__item-link" href="#">Выбрать квартиру</a>
+                            <a class="mobile-menu__item-link" href="#main">Выбрать квартиру</a>
                         </div>
                         <div class="mobile-menu__item">
-                            <a class="mobile-menu__item-link" href="#">О комплексе</a>
+                            <a class="mobile-menu__item-link" href="#gallery">О комплексе</a>
                         </div>
                         <div class="mobile-menu__item">
-                            <a class="mobile-menu__item-link" href="#">Как купить</a>
+                            <a class="mobile-menu__item-link" href="#buy">Как купить</a>
                         </div>
                         <div class="mobile-menu__item">
-                            <a class="mobile-menu__item-link" href="#">Контакты</a>
+                            <a class="mobile-menu__item-link" href="#contacts">Контакты</a>
                         </div>
                     </nav>
                 </div>
@@ -80,21 +78,21 @@
     <!-- main -->
     <main class="main">
         <!-- main-banner section -->
-        <section class="main-banner">
+        <section id="main" class="main-banner">
             <div class="main-banner__inner">
                 <div class="container">
                     <div class="main-banner__title-wrapper">
                         <h1 class="main-banner__title">Жилой комплекс <span class="main-banner__title--colored">“пушка”</span></h1>
                         <p class="main-banner__subtitle">Твой новый уровень комфорта и уюта.</p>
                     </div>
-                    <button class="button">Подбор квартир</button>
+                    <a href="https://izumrudnyy-pushkin.vercel.app/" class="button">Подбор квартир</a>
                 </div>
             </div>
         </section>
         <!-- main-banner section end -->
 
         <!-- grid-gallery section -->
-        <section class="grid-gallery">
+        <section id="gallery" class="grid-gallery">
             <div class="container">
                 <div class="grid-gallery__inner">
                     <div class="grid-gallery__item">
@@ -130,7 +128,7 @@
         <!-- grid-gallery section end -->
 
          <!-- how-buy section -->
-         <section class="how-buy">
+         <section id="buy" class="how-buy">
             <div class="container">
                 <h2 class="section__title">Как купить?</h2>
                 <div class="how-buy__inner">
@@ -188,7 +186,7 @@
         <!-- how-buy section end -->
 
         <!-- partners section -->
-        <section class="partners">
+        <section id="partners" class="partners">
             <div class="container">
                 <h2 class="section__title">Банки партнеры</h2>
                 <div class="partners__inner">
@@ -207,7 +205,7 @@
         <!-- partners section end -->
 
         <!-- feedback section -->
-        <section class="feedback">
+        <section id="feedback"  class="feedback">
             <div class="container">
                 <div class="feedback__inner">
                     <h5 class="feedback__title">Не нашли нужную информацию?</h5>
@@ -227,7 +225,7 @@
         <!-- feedback section end -->
 
         <!-- contacts section -->
-        <section class="contacts">
+        <section id="contacts" class="contacts">
             <div class="container">
                 <h2 class="section__title">Контакты</h2>
                 <div class="contacts__inner">
@@ -251,7 +249,7 @@
         </section>
         <!-- contacts section end -->
         <!-- copyright section -->
-        <section class="copyright">
+        <section id="copyright" class="copyright">
             <div class="container">
                 <p>
                     ООО «Специализированный застройщик  «ПушкинЪ»,
